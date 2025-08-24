@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ryota Yamamoto | Portfolio</title>
+  <meta name="description" content="ゲーム・Web制作・プロモーションのポートフォリオ。シンプルで読みやすい政府系デザイン風UI。">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-xxxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- システムフォント優先で軽量化（公的サイト風の端正さ） -->
+  <link rel="icon" href="./resource/img/icon.png">
+  <link rel="stylesheet" href="./resource/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">コンテンツへスキップ</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#">RYOTA YAMAMOTO</a>
+      <nav class="site-nav" aria-label="主要ナビゲーション">
+        <ul>
+          <li><a href="#about">プロフィール</a></li>
+          <li><a href="#news">お知らせ</a></li>
+          <li><a href="#projects">制作物</a></li>
+          <li><a href="#story">ストーリー</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1 class="hero-title">
+          シンプルに、正しく伝わる。<br/>
+          見やすさを最優先にした<br class="sp-only">ポートフォリオ
+        </h1>
+        <p class="hero-lead">
+          ゲーム制作・Web制作の経験を活かし、<br class="sp-only">パソコンスキルを基盤に新たな業務にも積極的に取り組みます。
+        </p>
+        <div class="hero-cta">
+          <a class="button primary" href="#projects" aria-label="制作物へ移動">制作物を見る</a>
+          <a class="button ghost" href="#contact" aria-label="お問い合わせへ移動">問い合わせる</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">プロフィール</h2>
+        <div class="about">
+          <div class="about-text">
+            <p>
+              趣味はゲーム開発（Unity/C#）とLINEスタンプの作成・販売をしています。<br class="sp-only">
+            </p>
+            <ul class="about-list">
+              <li>得意分野：作業効率化、AI活用、プログラミング</li>
+              <li>興味関心：DX、マーケティング、SNS運用</li>
+            </ul>
+          </div>
+          <div class="about-meta">
+            <dl>
+              <dt>名前</dt><dd>山本 涼太</dd>
+              <dt>所在地</dt><dd>東京都</dd>
+              <dt>スキル</dt><dd>Unity, C#, HTML, CSS, JS, Wix</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title">お知らせ</h2>
+        <div class="cards">
+          <article class="card">
+            <time class="card-date" datetime="2025-08-24">2025-08-24</time>
+            <h3 class="card-title">ポートフォリオを刷新しました</h3>
+            <p class="card-text">読みやすさ・アクセシビリティ・モバイル対応を強化しました。</p>
+            <ul class="tags" aria-label="タグ">
+              <li>#ポートフォリオ</li><li>#UI</li><li>#アクセシビリティ</li>
+            </ul>
+          </article>
+          <!-- <article class="card">
+            <time class="card-date" datetime="2025-08-10">2025-08-10</time>
+            <h3 class="card-title">Unity作品の追加</h3>
+            <p class="card-text">ドローン操作のタイムアタック・チェックポイント・ランク報酬を実装。</p>
+            <ul class="tags" aria-label="タグ">
+              <li>#ゲーム作品</li><li>#Unity</li><li>#CSharp</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <time class="card-date" datetime="2025-07-28">2025-07-28</time>
+            <h3 class="card-title">WixCamp サービス概要の公開</h3>
+            <p class="card-text">ノーコード×Web制作学習のオンラインスクール構想を整理しました。</p>
+            <ul class="tags" aria-label="タグ">
+              <li>#Wix</li><li>#オンラインスクール</li><li>#構想</li>
+            </ul>
+          </article> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">制作物</h2>
+
+        <div class="cards">
+          <!-- Project: Unity Game -->
+          <article class="card project">
+            <div class="content">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zhaeknxWIWM?si=jKut4cSlv0jN8zuv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <h3 class="card-title">STOPLINE (Unity)</h3>
+              <p class="card-text">線を引いて水色のボールを◯と書かれた看板まで誘導するゲームです。</p>
+              <ul class="tags"><li>#Unity</li><li>#2Dゲーム</li><li>#高校生作品</li></ul>
+              <div class="actions">
+                <a class="button small" href="https://ph19-ryota.github.io/STOPLINE.VGA/" target="_blank" aria-disabled="true">WebGL（プレイ可能）</a>
+              </div>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="media">
+              <!-- 画像がなくてもレイアウトが崩れないようプレースホルダ -->
+              <img src="./resource/img/認知症防止アプリ.png" alt="認知症防止の高齢者向けWebアプリ作成しました。" loading="lazy" aria-hidden="true">
+              <!-- <div class="media-fallback" aria-hidden="true">No Image</div> -->
+            </div>
+            <div class="content">
+              <h3 class="card-title">もの忘れクイズ</h3>
+              <p class="card-text">家を出る前に必要な持ち物は持っているか簡単なクイズ形式で確認できるようにしました</p>
+              <ul class="tags"><li>#v0.dev</li><li>#ノーコード</li><li>#高齢者向け</li></ul>
+              <div class="actions">
+                <a class="button small" href="https://monowasure-quiz.vercel.app/" target="_blank" aria-disabled="true">サイトに飛びます</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Web -->
+          <article class="card project">
+            <div class="media">
+              <img src="./resource/img/LINEスタンプ作成.png" alt="" loading="lazy" aria-hidden="true">
+              <!-- <div class="media-fallback" aria-hidden="true">No Image</div> -->
+            </div>
+            <div class="content">
+              <h3 class="card-title">LINEスタンプの販売</h3>
+              <p class="card-text">さまざまなデザインのポメラニアンをモチーフとしたLINEスタンプを販売しております。</p>
+              <ul class="tags"><li>#LINEスタンプ</li><li>#ChatGPT</li><li>#現在</li></ul>
+              <div class="actions">
+                <a class="button small" href="https://store.line.me/stickershop/author/5570258/ja" target="_blank" aria-disabled="true">スタンプを見る</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story (縦線タイムライン) -->
+    <section id="story" class="section">
+      <div class="container">
+        <h2 class="section-title">ストーリー</h2>
+        <ol class="timeline" aria-label="タイムライン">
+          <li class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="body">
+              <p>2019年4月〜2022年3月</p>
+              <h3>高校時代 – Unityに出会う</h3>
+              <p>2D/3D/VRのゲーム制作を専門学校で学び、学内最優秀賞を4回連続で受賞しました。</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="body">
+              <p>2022年4月〜2023年1月</p>
+              <h3>新卒入社 – DeNA</h3>
+              <p>研修後にIRIAMへ出向。Unityエンジニアとして実務経験を積む。</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="body">
+              <p>2023年2月〜3月</p>
+              <h3>統合失調症を発症</h3>
+              <p>3週間の医療保護入院を経験</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="body">
+              <p>2023年12月〜2024年2月</p>
+              <h3>妄想型統合失調症を再発</h3>
+              <p>再発により2ヶ月半の緊急措置入院。</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="body">
+              <p>2024年2月〜2025年2月</p>
+              <h3>デイケア通所</h3>
+              <p>週2から始め、段階的に週5までステップアップ。</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="body">
+              <p>2025年2月〜現在</p>
+              <h3>B型作業所に週5で通所</h3>
+              <p>B型作業所に週5通所。6つの業務を担当しながら、就職活動を進めている。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">お問い合わせ</h2>
+            <form class="contact" action="https://formspree.io/f/mzzapdkj" method="POST">
+                <div class="field">
+                    <label for="name">お名前</label>
+                    <input id="name" name="name" type="text" inputmode="text" autocomplete="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">メール</label>
+                    <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required>
+                </div>
+                <div class="field">
+                    <label for="msg">内容</label>
+                    <textarea id="msg" name="message" rows="5" required></textarea>
+                </div>
+                <div class="actions">
+                    <button class="button primary" type="submit">送信</button>
+                    <button class="button ghost" type="reset">リセット</button>
+                </div>
+                <p class="note">※ このフォームは<a href="https://formspree.io/" target="_blank">Formspree</a>を利用しています。</p>
+                <!-- 送信結果を表示（非リダイレクト運用用） -->
+                <div class="form-status" role="status" aria-live="polite" aria-atomic="true"></div>
+            </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+        <small>&copy; <span id="year"></span> Ryota Yamamoto</small>
+
+        <nav class="sns-nav" aria-label="SNSリンク">
+        <ul>
+            <li>
+            <a href="https://www.tiktok.com/@pomeranian.job" target="_blank" rel="noopener">
+                TikTok
+            </a>
+            </li>
+            <li>
+            <a href="https://www.youtube.com/@tadanorita3" target="_blank" rel="noopener">
+                YouTube
+            </a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+  </footer>
+
+  <script src="./resource/js/ main.js"></script>
+</body>
+</html>

@@ -124,10 +124,12 @@ main{ padding-top: var(--header-height); }
   padding:16px; background:var(--card); border:1px solid var(--line);
   border-radius:16px; box-shadow: var(--shadow);
 }
+.card:hover{
+  border: 1px solid var(--brand);
+}
 .card:hover .card-title,
 .card:hover .card-text {
   color: var(--brand);
-  border-color:  var(--brand);
   transition: color 0.3s ease;
 }
 .card-date{ color:var(--muted); font-size:.9rem; }

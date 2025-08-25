@@ -9,9 +9,3 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 if (reduceMotion) {
   document.documentElement.style.scrollBehavior = 'auto';
 }
-
-// もし将来フォームを本送信に切り替える場合のサンプル（preventDefault）
-// document.querySelector('.contact')?.addEventListener('submit', (e) => {
-//   e.preventDefault();
-//   alert('送信ありがとうございました！');
-// });
